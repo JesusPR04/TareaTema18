@@ -1,18 +1,40 @@
-## Getting Started
+--COMANDOS USADOS-- 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+git init: para iniciar un proyecto en github.
 
-## Folder Structure
+git branch<>: comando para crear ramas colocando dichos nombre entre los signos menor y mayor.
 
-The workspace contains two folders by default, where:
+git checkout -b <>: comando para cambiar de una rama a otra colocando dichos nombre entre los signos menor y mayor.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+git add .: comando que deja el proyecto en staged a la espera del commit.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+git commit -m "mensaje de confirmación": comando para gaurdar los cambios definitivamente.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+git merge <>: comando para fusionar ramas colocando dichos nombre entre los signos menor y mayor.
 
-## Dependency Management
+----------------------------------------------------------------------------------------------
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Hago el primer commit en la rama master(v0.1).
+
+Creo la rama hotfix desde la rama master y hago un commit de la rama hotfix.
+
+Creo la rama develop, hago el cambio y creo la rama feature.
+
+Hago cuatro commits en la rama feature.
+
+Hago la fusión desde la rama master con hotfix que seria el punto v0.2, hago el commit de la v0.2.
+
+Me voy a la rama develop y hago el segundo commit.
+
+Creo la rama feature2 desde la rama develop y hago dos commit.
+
+Fusiono la rama develop con la hotfix y hago el tercer cambio en la rama develop.
+
+Fusiono la rama develop con la de feature2 y hago el cuarto commit en la rama develop.
+
+Creo la rama release desde develop y hago dos commit en release.
+
+Fusiono la rama release con la rama master y hago el commit en la rama master de la v1.0.
+
+Fusiono la rama release con develop y hago un commit en la rama develop.
+
