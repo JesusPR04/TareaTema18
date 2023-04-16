@@ -7,5 +7,6 @@ public class App {
         // Cuarta modificación en la rama develop.
         // Priemra modificaión en la rama release.
         // Segunda modificaión en la rama release.
+        // Version 1.0 en la rama master.
     }
 }
